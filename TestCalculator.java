@@ -7,7 +7,8 @@ public class TestCalculator {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		CalculatorCalc.calc();
+		CalculatorCalc bl = new CalculatorCalc();
+        bl.setVisible(true);
 	}
 
 }
